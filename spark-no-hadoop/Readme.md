@@ -20,13 +20,13 @@ docker-compose up -d
 open http://localhost:8080/
 
 # Play with PySpark
-docker exec -it helloworldspark_master_1 /bin/bash bin/pyspark
+docker exec -it sparknohadoop_master_1 /bin/bash bin/pyspark
 
 # Leave when you're done
 exit
 
 # Look around the OS
-docker exec -it helloworldspark_master_1 /bin/bash
+docker exec -it sparknohadoop_master_1 /bin/bash
 
 # Leave when you're done
 exit
